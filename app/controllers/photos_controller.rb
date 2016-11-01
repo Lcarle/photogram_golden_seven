@@ -44,5 +44,6 @@ class PhotosController < ApplicationController
     @photo.save
 
     redirect to("/photos/:id")
+  end
 
 end
